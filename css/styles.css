@@ -11068,3 +11068,7 @@ html {
   height: 75%;
   object-fit: cover;          /* ajusta la imagen al contenedor */
 }
+
+.space-botton{
+  padding-bottom: 15px;
+}
