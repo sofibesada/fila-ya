@@ -10927,7 +10927,7 @@ html {
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 1.50em;
     transition: font-size 0.3s;
   }
   #mainNav .navbar-nav {
@@ -11049,4 +11049,22 @@ html {
   .page-section-heading {
     font-size: 1.5rem;
   }
+}
+
+.imagen-circular {
+  width: 220px;               /* tamaño del círculo */
+  height: 220px;
+  border-radius: 50%;         /* forma circular */
+  background-color: black;    /* fondo blanco */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;           /* recorta la imagen al círculo */
+  border: 4px solid #ccc;     /* opcional: borde gris */
+}
+
+.imagen-circular img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;          /* ajusta la imagen al contenedor */
 }
