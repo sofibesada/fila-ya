@@ -11052,8 +11052,8 @@ html {
 }
 
 .imagen-circular {
-  width: 220px;               /* tamaño del círculo */
-  height:220px;
+  width: 160px;               /* tamaño del círculo */
+  height:160px;
   border-radius: 50%;         /* forma circular */
   background-color: black;    /* fondo blanco */
   display: flex;
